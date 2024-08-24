@@ -7,3 +7,5 @@ The clock displays time in UNIX (Base10 and binary formatted) and local time (Wh
 
 > [!NOTE]
 > Time might be off by 0.5 seconds or less, due to the script rerunning only every 0.5 seconds.
+
+**The web application is live at https://clock-app.streamlit.app.**
