@@ -3,6 +3,8 @@ import pytz as tz
 from time import time, sleep
 from datetime import datetime
 
+st.set_page_config(page_title="Clock", page_icon="🕰️")
+
 st.title("Clock")
 
 TZ = st.selectbox("Select your time zone", tz.all_timezones)
